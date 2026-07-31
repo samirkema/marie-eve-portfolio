@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Catégorie Art — Marie-Ève</title>
+<meta name="description" content="Explorez les œuvres de Marie-Ève par catégorie : aquarelle, pastels, sculpture et plus." />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="site-nav is-solid">
+  <div class="container">
+    <a href="index.html" class="brand">Marie<span>-Ève</span></a>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Bienvenue</a></li>
+      <li><a href="categorie-art.html">Catégorie Art</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="acheter.html">Acheter</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section style="padding-top: calc(var(--nav-h) + 60px);">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Catégorie Art</span>
+      <h1>Explorez mon univers par technique</h1>
+      <p>Chaque médium raconte quelque chose de différent — cliquez sur une catégorie pour découvrir les œuvres qui lui appartiennent.</p>
+    </div>
+
+    <div class="art-hub reveal">
+      <div class="art-hub-col" data-hub-col></div>
+      <div class="art-hub-center">
+        <img src="assets/photocentrale.JPG" alt="Marie-Ève avec l'une de ses œuvres" />
+      </div>
+      <div class="art-hub-col" data-hub-col></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt-bg" id="galerie">
+  <div class="container">
+    <div class="gallery-tabs" id="gallery-tabs"></div>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </div>
+</section>
+
+<footer>
+  <a href="index.html" class="brand">Marie<span>-Ève</span></a>
+  <p>© <span id="year"></span> Marie-Ève — Tous droits réservés</p>
+</footer>
+
+<script src="data/gallery.js"></script>
+<script src="js/gallery.js"></script>
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

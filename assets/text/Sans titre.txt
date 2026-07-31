@@ -1,0 +1,20 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+Bonjour, je m'appelle Marie-Eve.\
+La peinture est pour moi bien plus qu'une pratique artistique : c'est un moyen d'exprimer des \'e9motions, de raconter des histoires et de cr\'e9er un dialogue avec celui qui regarde mes \'9cuvres.\
+Mon travail s'inspire de la couleur, de la lumi\'e8re et de la figure humaine. J'aime explorer les \'e9motions \'e0 travers des compositions o\'f9 se m\'ealent sensibilit\'e9, mouvement et spontan\'e9it\'e9. Les artistes fauves, et des peintres comme Vincent Van Gogh ou Raoul Dufy nourrissent ma r\'e9flexion, tout en me poussant \'e0 d\'e9velopper un langage qui m'est propre.\
+Chaque tableau est une recherche. J'exp\'e9rimente les mati\'e8res, les harmonies de couleurs et les contrastes pour cr\'e9er une atmosph\'e8re qui invite le spectateur \'e0 s'arr\'eater, ressentir et imaginer sa propre histoire.\
+\
+Chaque toile est une rencontre entre intuition et r\'e9flexion. J'accorde une grande importance \'e0 la lumi\'e8re, aux harmonies color\'e9es et \'e0 la mati\'e8re, avec le d\'e9sir de cr\'e9er des \'9cuvres qui interpellent et invitent le spectateur \'e0 ressentir plut\'f4t qu'\'e0 simplement regarder.\
+Peindre est pour moi une fa\'e7on de r\'e9v\'e9ler l'invisible, de donner une voix aux \'e9motions et d'offrir un moment de contemplation. Mon ambition est de construire, au fil de mes cr\'e9ations, un univers artistique sinc\'e8re, vivant et profond\'e9ment humain.\
+\
+\
+Mon souhait est que mes \'9cuvres suscitent une \'e9motion sinc\'e8re, qu'elles offrent un instant de po\'e9sie et qu'elles permettent \'e0 chacun de se reconna\'eetre, d'une mani\'e8re ou d'une autre, dans ce qu'elles racontent.\
+Merci de prendre le temps de d\'e9couvrir mon univers.}

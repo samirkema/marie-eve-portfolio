@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>À propos — Marie-Ève</title>
+<meta name="description" content="À propos de Marie-Ève : sa démarche artistique, ses inspirations et comment la contacter." />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="site-nav is-solid">
+  <div class="container">
+    <a href="index.html" class="brand">Marie<span>-Ève</span></a>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Bienvenue</a></li>
+      <li><a href="categorie-art.html">Catégorie Art</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="acheter.html">Acheter</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section style="padding-top: calc(var(--nav-h) + 60px);">
+  <div class="container">
+    <div class="about-wrap">
+
+      <div class="about-portrait reveal">
+        <div class="portrait-frame">
+          <img id="portrait-img" alt="Portrait de Marie-Ève" />
+          <div class="portrait-placeholder" id="portrait-placeholder" style="display:none;">
+            <span class="initials">M-È</span>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <h3>Contact</h3>
+          <ul class="contact-list">
+            <!-- TODO: remplacer par la vraie adresse e-mail / réseaux de Marie-Ève -->
+            <li><a href="mailto:contact@example.com">contact@example.com</a></li>
+            <li><a href="#" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="about-bio reveal">
+        <span class="eyebrow">À propos</span>
+        <h1>Bio</h1>
+
+        <p>Bonjour, je m'appelle Marie-Ève.</p>
+
+        <p>La peinture est pour moi bien plus qu'une pratique artistique : c'est un moyen d'exprimer des émotions, de raconter des histoires et de créer un dialogue avec celui qui regarde mes œuvres.</p>
+
+        <p>Mon travail s'inspire de la couleur, de la lumière et de la figure humaine. J'aime explorer les émotions à travers des compositions où se mêlent sensibilité, mouvement et spontanéité. Les artistes fauves, et des peintres comme Vincent Van Gogh ou Raoul Dufy nourrissent ma réflexion, tout en me poussant à développer un langage qui m'est propre.</p>
+
+        <p>Chaque tableau est une recherche. J'expérimente les matières, les harmonies de couleurs et les contrastes pour créer une atmosphère qui invite le spectateur à s'arrêter, ressentir et imaginer sa propre histoire.</p>
+
+        <p>Chaque toile est une rencontre entre intuition et réflexion. J'accorde une grande importance à la lumière, aux harmonies colorées et à la matière, avec le désir de créer des œuvres qui interpellent et invitent le spectateur à ressentir plutôt qu'à simplement regarder.</p>
+
+        <p>Peindre est pour moi une façon de révéler l'invisible, de donner une voix aux émotions et d'offrir un moment de contemplation. Mon ambition est de construire, au fil de mes créations, un univers artistique sincère, vivant et profondément humain.</p>
+
+        <p>Mon souhait est que mes œuvres suscitent une émotion sincère, qu'elles offrent un instant de poésie et qu'elles permettent à chacun de se reconnaître, d'une manière ou d'une autre, dans ce qu'elles racontent.</p>
+
+        <p><em>Merci de prendre le temps de découvrir mon univers.</em></p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a href="index.html" class="brand">Marie<span>-Ève</span></a>
+  <p>© <span id="year"></span> Marie-Ève — Tous droits réservés</p>
+</footer>
+
+<script src="js/portrait.js"></script>
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

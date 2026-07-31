@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Acheter — Marie-Ève</title>
+<meta name="description" content="Acheter une œuvre originale de Marie-Ève." />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="site-nav is-solid">
+  <div class="container">
+    <a href="index.html" class="brand">Marie<span>-Ève</span></a>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="index.html">Bienvenue</a></li>
+      <li><a href="categorie-art.html">Catégorie Art</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="acheter.html">Acheter</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section style="padding-top: calc(var(--nav-h) + 60px);">
+  <div class="container">
+    <div class="buy-hero reveal">
+      <span class="eyebrow">Buy my art</span>
+      <h1>Envie d'accrocher une œuvre chez vous ?</h1>
+      <p>Mes toiles et créations originales sont disponibles à l'achat en ligne. Choisissez votre boutique préférée.</p>
+    </div>
+
+    <div class="shop-grid reveal">
+      <!-- TODO: remplacer "#" par le vrai lien de la boutique Etsy de Marie-Ève -->
+      <a href="#" target="_blank" rel="noopener" class="shop-card">
+        <div class="shop-icon">E</div>
+        <h3>Sur Etsy</h3>
+        <p>Retrouvez mes œuvres originales dans ma boutique Etsy.</p>
+        <span class="note">Voir la boutique →</span>
+      </a>
+
+      <!-- TODO: activer ce lien dès que la 2e boutique/plateforme est choisie -->
+      <div class="shop-card is-soon" aria-disabled="true">
+        <div class="shop-icon">?</div>
+        <h3>Bientôt disponible</h3>
+        <p>Une deuxième boutique arrive prochainement.</p>
+        <span class="note">À venir</span>
+      </div>
+    </div>
+
+    <p class="buy-note">Une question sur une œuvre, une commande sur mesure ou la livraison ? <a href="a-propos.html">Contactez-moi</a>.</p>
+  </div>
+</section>
+
+<footer>
+  <a href="index.html" class="brand">Marie<span>-Ève</span></a>
+  <p>© <span id="year"></span> Marie-Ève — Tous droits réservés</p>
+</footer>
+
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

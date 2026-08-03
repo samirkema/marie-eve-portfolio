@@ -124,6 +124,26 @@ const GALLERY = [
           }
         ],
         "id": "aquarelle-10"
+      },
+      {
+        "title": "",
+        "media": [
+          {
+            "file": "20260728_200848.jpg",
+            "type": "image"
+          }
+        ],
+        "id": "aquarelle-11"
+      },
+      {
+        "title": "",
+        "media": [
+          {
+            "file": "20260728_200856.jpg",
+            "type": "image"
+          }
+        ],
+        "id": "aquarelle-12"
       }
     ]
   },
@@ -570,6 +590,16 @@ const GALLERY = [
           }
         ],
         "id": "peinture-02"
+      },
+      {
+        "title": "",
+        "media": [
+          {
+            "file": "20260802_142427.jpg",
+            "type": "image"
+          }
+        ],
+        "id": "peinture-03"
       }
     ]
   },
